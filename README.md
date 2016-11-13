@@ -18,4 +18,4 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - `mkdir workspace; cd workspace`
     - `git clone https://github.com/matthewcosgrove/macos-bootstrap.git` 
     - `cd macos-bootstrap`
-    - `.install-ansible.sh`
+    - `./install-ansible.sh`
