@@ -13,9 +13,11 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - `git`
     - Message will say something about xcode-select ’no developer tools were found' and dialog pops up asking to install XCode 
     - click Install
-1. Install Ansible
+1. Install and configure Ansible
     - Open Terminal
     - `mkdir workspace; cd workspace`
     - `git clone https://github.com/matthewcosgrove/macos-bootstrap.git` 
     - `cd macos-bootstrap`
     - `./install-ansible.sh`
+    - `sudo ansible-galaxy install -r pre-req-roles.yml`
+    - `ansible-playbook main.yml -i inventory -K`
