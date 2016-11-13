@@ -4,7 +4,9 @@ Bootstrap a fresh OS X install with preferred apps and config
 
 Incremental testing of these scripts was facilitated by https://github.com/geerlingguy/macos-virtualbox-vm
 
-# Install steps
+# Bootstrap steps
+
+### Step 1 - Prepare tools
 
 1. Install XCode tools
     - Open Terminal
