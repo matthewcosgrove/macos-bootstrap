@@ -13,3 +13,16 @@ dotfiles_files:
   - .inputrc
 #  - .osx
 #  - .vimrc
+
+# Homebrew set up (Defaults: https://github.com/geerlingguy/ansible-role-homebrew/blob/master/defaults/main.yml)
+homebrew_installed_packages:
+  - ssh-copy-id
+  - pv
+  - go
+  - grafana
+  - gradle
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+
