@@ -20,4 +20,4 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - `cd macos-bootstrap`
     - `./install-ansible.sh`
     - `sudo ansible-galaxy install -r pre-req-roles.yml`
-    - `sudo ansible-playbook main.yml -i inventory -K`
+    - `ansible-playbook main.yml -i inventory -K`
