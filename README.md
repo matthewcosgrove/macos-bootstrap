@@ -19,5 +19,4 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - `git clone https://github.com/matthewcosgrove/macos-bootstrap.git` 
     - `cd macos-bootstrap`
     - `./install-ansible.sh`
-    - `ansible-galaxy install -r pre-req-roles.yml --roles-path roles`
-    - `ansible-playbook main.yml -i inventory -K`
+    - `./run-ansible-tasks.sh`
