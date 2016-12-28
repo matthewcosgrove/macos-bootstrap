@@ -18,5 +18,5 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - `mkdir workspace; cd workspace`
     - `git clone https://github.com/matthewcosgrove/macos-bootstrap.git` 
     - `cd macos-bootstrap`
-    - `./install-ansible.sh`
-    - `./run-ansible-tasks.sh`
+    - `./01-install-ansible.sh`
+    - `./02-run-ansible-tasks.sh`

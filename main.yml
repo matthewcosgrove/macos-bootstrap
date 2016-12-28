@@ -3,7 +3,7 @@
   connection: local
 
   vars_files:
-    - vars/main.yml
+    - "vars/{{ vars_choice }}.yml"
 
   roles:
     - geerlingguy.homebrew
