@@ -15,9 +15,9 @@ Incremental testing of these scripts was facilitated by https://github.com/geerl
     - click Install
 1. Install and configure Ansible
     - Open Terminal
-    - `mkdir workspace workspace/roles; cd workspace`
+    - `mkdir workspace; cd workspace`
     - `git clone https://github.com/matthewcosgrove/macos-bootstrap.git` 
     - `cd macos-bootstrap`
     - `./install-ansible.sh`
-    - `ansible-galaxy install -r pre-req-roles.yml --roles-path ~/workspace/roles`
+    - `ansible-galaxy install -r pre-req-roles.yml --roles-path .`
     - `ansible-playbook main.yml -i inventory -K`
