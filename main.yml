@@ -6,8 +6,15 @@
     - "vars/{{ vars_choice }}.yml"
 
   roles:
-    - geerlingguy.homebrew
+    - java.homebrew
     - geerlingguy.dotfiles
+    - name: geerlingguy.mas
+      when: mas_installed_app_ids
 
   tasks:
     - include: tasks/ansible-setup.yml
+
+  vars_prompt:
+    - name: "mas_password"
+      prompt: "what is your mas_password?"
+

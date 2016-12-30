@@ -18,6 +18,7 @@ dotfiles_files:
 homebrew_installed_packages:
   - ssh-copy-id
   - go
+  - maven
 #  - grafana # brew link go required before this can be installed
 #  - gradle
 
@@ -28,7 +29,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
+  - java
   - dropbox
   - firefox
   - google-chrome
