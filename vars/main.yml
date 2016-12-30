@@ -16,11 +16,16 @@ dotfiles_files:
 
 # Homebrew set up (Defaults: https://github.com/geerlingguy/ansible-role-homebrew/blob/master/defaults/main.yml)
 homebrew_installed_packages:
-  - ssh-copy-id
   - go
+  - grafana
+  - gradle
+  - git
   - maven
-#  - grafana # brew link go required before this can be installed
-#  - gradle
+  - python
+  - npm
+  - openssl
+  - ssh-copy-id
+  - wget
 
 homebrew_taps:
   - homebrew/core
