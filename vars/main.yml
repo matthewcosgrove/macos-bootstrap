@@ -33,8 +33,26 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
+  - 1password
+  - spotify
+  - skype
+  - sts
+  - sublime-text
+  - textwrangler
+  - vagrant
+  - virtualbox
+  - evernote
+  - istat-menus
+  - jump-desktop
+  - scrivener
+  - cyberduck
+# Later...
+#  - docker
+#  - reeder
 
 mas_installed_app_ids:
-  - 443987910 # 1Password
   - 497799835 # Xcode
+  - 411643860 # DaisyDisk
+
+mas_email: "{{ apple_email }}"
 

@@ -32,6 +32,7 @@ homebrew_cask_apps:
   - google-chrome
 
 mas_installed_app_ids:
-  - 443987910 # 1Password
-  - 497799835 # Xcode
+#  - 497799835 # Xcode
+
+mas_email: "{{ apple_email }}"
 
