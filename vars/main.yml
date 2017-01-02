@@ -11,7 +11,7 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .inputrc
-#  - .osx
+  - .osx
 #  - .vimrc
 
 # Homebrew set up (Defaults: https://github.com/geerlingguy/ansible-role-homebrew/blob/master/defaults/main.yml)
