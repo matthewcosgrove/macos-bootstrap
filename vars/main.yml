@@ -51,6 +51,7 @@ homebrew_cask_apps:
   - jump-desktop
   - scrivener
   - cyberduck
+  - spectacle
 # Later...
 #  - docker
 #  - reeder
