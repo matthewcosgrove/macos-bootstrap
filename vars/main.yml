@@ -10,6 +10,8 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/workspace/dotfiles
 dotfiles_files:
   - .bash_profile
+  - .functions
+  - .exports
   - .gitconfig
   - .gitignore
   - .inputrc
