@@ -3,6 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 configure_osx: yes
+app_store_enabled: false
 
 dotfiles_repo: https://github.com/matthewcosgrove/dotfiles.git
 dotfiles_repo_accept_hostkey: yes

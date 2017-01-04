@@ -9,7 +9,7 @@
     - java.homebrew
     - geerlingguy.dotfiles
     - name: geerlingguy.mas
-      when: mas_installed_app_ids
+      when: app_store_enabled
 
   tasks:
     - include: tasks/ansible-setup.yml
