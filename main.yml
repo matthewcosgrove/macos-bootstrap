@@ -17,11 +17,20 @@
       shell: ~/.osx
       changed_when: false
       when: configure_osx
+    - name: check CF CLI plugins
+      stat: path="~/.cf/plugins/{{ item.binary }}"
+      register: "cf_plugin_binary_exists"
+      with_items: "{{ cf_cli_plugins }}"
+
+    - debug: var=cf_plugin_binary_exists
+
+    - debug: msg="item.item={{item.item}}, item.changed={{item.changed}}"
+      with_items: "{{ cf_plugin_binary_exists.results }}"
+
     - name: install CF CLI plugins
       shell: cf install-plugin -f -r CF-Community "{{ item }}"
-      with_items:
-         - top
-         - targets
+      when: item.stat.exists == False
+      with_items: "{{ cf_plugin_binary_exists.results }}"
 
   vars_prompt:
     - name: "mas_password"

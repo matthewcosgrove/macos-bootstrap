@@ -5,6 +5,10 @@ configure_sudoers: yes
 configure_osx: yes
 app_store_enabled: false
 
+cf_cli_plugins:
+  - { name: "top", binary: "top-plugin-darwin" }
+  - { name: "target", binary: "cf-targets-plugin" }
+
 dotfiles_repo: https://github.com/matthewcosgrove/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/workspace/dotfiles
