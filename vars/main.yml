@@ -5,6 +5,7 @@ configure_sudoers: yes
 configure_osx: yes
 app_store_enabled: false
 
+# binary corresponds to suffix of url at https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/repo-index.yml
 cf_cli_plugins:
   - { name: "top", binary: "top-plugin-darwin" }
   - { name: "target", binary: "cf-targets-plugin" }
