@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - openssl
   - ssh-copy-id
   - wget
+  - cf-cli
 
 homebrew_taps:
   - homebrew/core
