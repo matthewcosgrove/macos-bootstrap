@@ -57,6 +57,7 @@ homebrew_cask_apps:
   - scrivener
   - cyberduck
   - spectacle
+  - atom
 # Later...
 #  - docker
 #  - reeder
