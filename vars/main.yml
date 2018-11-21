@@ -7,8 +7,8 @@ app_store_enabled: false
 
 # binary corresponds to suffix of url at https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/repo-index.yml
 cf_cli_plugins:
-  - { name: "top", binary: "top-plugin-darwin" }
-  - { name: "target", binary: "cf-targets-plugin" }
+  - top # binary: "top-plugin-darwin"
+  - Targets # binary: "cf-targets-plugin"
 
 dotfiles_repo: https://github.com/matthewcosgrove/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
