@@ -1,6 +1,5 @@
 ---
 - name: geerlingguy.dotfiles
-- src: https://github.com/matthewcosgrove/ansible-role-homebrew
-  version: support-for-maven-java
-  name: java.homebrew
+- src: https://github.com/geerlingguy/ansible-role-homebrew
+  name: geerlingguy.homebrew
 - name: geerlingguy.mas

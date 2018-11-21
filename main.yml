@@ -6,7 +6,7 @@
     - "vars/{{ vars_choice }}.yml"
 
   roles:
-    - java.homebrew
+    - geerlingguy.homebrew
     - geerlingguy.dotfiles
     - name: geerlingguy.mas
       when: app_store_enabled
