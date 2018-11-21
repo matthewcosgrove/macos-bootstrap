@@ -55,7 +55,8 @@ homebrew_cask_apps:
   - sublime-text
   - textwrangler
   - vagrant
-  - virtualbox
+# borked due to https://github.com/Homebrew/homebrew-cask/issues/39369#issuecomment-339118861
+# - virtualbox
   - evernote
   - istat-menus
   - jump-desktop
