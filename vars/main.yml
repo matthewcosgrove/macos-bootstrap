@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 configure_osx: yes
-app_store_enabled: false
+app_store_enabled: true
 
 # binary corresponds to suffix of url at https://github.com/cloudfoundry-incubator/cli-plugin-repo/blob/master/repo-index.yml
 cf_cli_plugins:
@@ -69,9 +69,7 @@ homebrew_cask_apps:
 #  - reeder
 
 mas_installed_apps:
-  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
   - { id: 411643860, name: "DaisyDisk" }
-  - { id: 498486288, name: "Quick Resizer" }
   - { id: 497799835, name: "Xcode" }
 
 mas_email: "{{ apple_email }}"
