@@ -68,9 +68,10 @@ homebrew_cask_apps:
 #  - docker
 #  - reeder
 
-mas_installed_app_ids:
-  - 497799835 # Xcode
-  - 411643860 # DaisyDisk
+mas_installed_apps:
+  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
+  - { id: 411643860, name: "DaisyDisk" }
+  - { id: 498486288, name: "Quick Resizer" }
+  - { id: 497799835, name: "Xcode" }
 
 mas_email: "{{ apple_email }}"
-
