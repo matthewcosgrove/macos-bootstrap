@@ -41,6 +41,7 @@ homebrew_taps:
   - homebrew/core
   - caskroom/cask
   - cloudfoundry/tap
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -58,7 +59,7 @@ homebrew_cask_apps:
 # borked due to https://github.com/Homebrew/homebrew-cask/issues/39369#issuecomment-339118861
 # - virtualbox
   - evernote
-  - istat-menus
+  - istat-menus5
   - jump-desktop
   - scrivener
   - cyberduck
