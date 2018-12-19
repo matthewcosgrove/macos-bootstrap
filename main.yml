@@ -20,6 +20,8 @@
     - name: install CF CLI plugins
       shell: cf install-plugin -f -r CF-Community "{{ item }}"
       with_items: "{{ cf_cli_plugins }}"
+    - name: install AWS CLI
+      shell: sudo pip install awscli --ignore-installed six
 
   vars_prompt:
     - name: "mas_password"
