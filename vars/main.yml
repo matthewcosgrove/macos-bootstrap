@@ -36,6 +36,9 @@ homebrew_installed_packages:
   - ssh-copy-id
   - wget
   - cf-cli
+  - tmate
+  - jq
+  - bash-completion
 
 homebrew_taps:
   - homebrew/core
