@@ -53,9 +53,10 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - 1password
+  - 1password-cli
   - spotify
   - skype
-  - sts
+  - slack
   - sublime-text
   - textwrangler
   - vagrant
@@ -68,8 +69,10 @@ homebrew_cask_apps:
   - cyberduck
   - spectacle
   - atom
+  - vmware-horizon-client
+  - postman
+  - docker
 # Later...
-#  - docker
 #  - reeder
 
 mas_installed_apps:
