@@ -32,6 +32,14 @@
     - name: Use latest bash for root user
       command: chsh -s /usr/local/bin/bash
       become: true
+    - name: Add bash completion support via bash_profile
+      lineinfile:
+        path: ~/.bash_profile
+        line: export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"
+    - name: Add bash completion support via bash_profile
+      lineinfile:
+        path: ~/.bash_profile
+        line: '[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"'
 
   vars_prompt:
     - name: "mas_password"
