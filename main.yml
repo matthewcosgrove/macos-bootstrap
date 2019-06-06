@@ -22,6 +22,13 @@
       with_items: "{{ cf_cli_plugins }}"
     - name: install AWS CLI
       shell: sudo pip install awscli --ignore-installed six
+    - name: Add a line to /etc/shells to support latest bash install
+      lineinfile:
+        path: /etc/shells
+        line: /usr/local/bin/bash
+      become: true
+    - name: Use latest bash for current user
+      command: chsh -s /usr/local/bin/bash $USER
 
   vars_prompt:
     - name: "mas_password"
