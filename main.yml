@@ -29,6 +29,9 @@
       become: true
     - name: Use latest bash for current user
       command: chsh -s /usr/local/bin/bash $USER
+    - name: Use latest bash for root user
+      command: chsh -s /usr/local/bin/bash
+      become: true
 
   vars_prompt:
     - name: "mas_password"
