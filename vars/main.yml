@@ -39,7 +39,7 @@ homebrew_installed_packages:
   - tmate
   - jq
   - bash
-  - bash-completion
+  - bash-completion@2
 
 homebrew_taps:
   - homebrew/core
