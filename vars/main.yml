@@ -38,6 +38,7 @@ homebrew_installed_packages:
   - cf-cli
   - tmate
   - jq
+  - bash
   - bash-completion
 
 homebrew_taps:
